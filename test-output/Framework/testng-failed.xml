@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Framework]" parallel="tests">
+  <listeners>
+    <listener class-name="UdemySelenium.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Error Validation Test(failed)" parallel="tests">
+    <classes>
+      <class name="UdemySelenium.Tests._03ErrorValidationTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="LoginErrorValidation"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- UdemySelenium.Tests._03ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+  <test thread-count="5" name="Order Place Test(failed)" parallel="tests">
+    <classes>
+      <class name="UdemySelenium.Tests._02OrderPlaceTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
+          <include name="OrderPlace" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- UdemySelenium.Tests._02OrderPlaceTest -->
+    </classes>
+  </test> <!-- Order Place Test(failed) -->
+</suite> <!-- Failed suite [Framework] -->

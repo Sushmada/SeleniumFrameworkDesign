@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-13T22:51:02 IST" name="Framework" finished-at="2022-10-13T22:52:36 IST" duration-ms="94022">
+    <groups>
+      <group name="Purchase">
+        <method signature="_02OrderPlaceTest.OrderPlace(java.util.HashMap)[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" name="OrderPlace" class="UdemySelenium.Tests._02OrderPlaceTest"/>
+        <method signature="_02OrderPlaceTest.OrderHistory(java.util.HashMap)[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" name="OrderHistory" class="UdemySelenium.Tests._02OrderPlaceTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2022-10-13T22:51:02 IST" name="Error Validation Test" finished-at="2022-10-13T22:51:03 IST" duration-ms="470">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2022-10-13T22:51:02 IST" name="Order Place Test" finished-at="2022-10-13T22:52:36 IST" duration-ms="94022">
+      <class name="UdemySelenium.Tests._02OrderPlaceTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:51:06 IST" name="launchApplication" finished-at="2022-10-13T22:51:47 IST" duration-ms="40964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderPlace(java.util.HashMap)[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:51:47 IST" name="OrderPlace" data-provider="getData" finished-at="2022-10-13T22:51:58 IST" duration-ms="10584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Bujji!123, product=ADIDAS ORIGINAL, email=sush@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderPlace -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:51:58 IST" name="closeBrowser" finished-at="2022-10-13T22:51:58 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:51:58 IST" name="launchApplication" finished-at="2022-10-13T22:52:07 IST" duration-ms="9188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderPlace(java.util.HashMap)[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:07 IST" name="OrderPlace" data-provider="getData" finished-at="2022-10-13T22:52:17 IST" duration-ms="9916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sush!123, product=IPHONE 13 PRO, email=bujji77@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderPlace -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:17 IST" name="closeBrowser" finished-at="2022-10-13T22:52:17 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:17 IST" name="launchApplication" finished-at="2022-10-13T22:52:27 IST" duration-ms="10113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistory(java.util.HashMap)[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:27 IST" name="OrderHistory" data-provider="getData" finished-at="2022-10-13T22:52:29 IST" depends-on-methods="UdemySelenium.Tests._02OrderPlaceTest.OrderPlace" duration-ms="1250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Bujji!123, product=ADIDAS ORIGINAL, email=sush@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:29 IST" name="closeBrowser" finished-at="2022-10-13T22:52:29 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:29 IST" name="launchApplication" finished-at="2022-10-13T22:52:35 IST" duration-ms="6460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistory(java.util.HashMap)[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:35 IST" name="OrderHistory" data-provider="getData" finished-at="2022-10-13T22:52:36 IST" depends-on-methods="UdemySelenium.Tests._02OrderPlaceTest.OrderPlace" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sush!123, product=IPHONE 13 PRO, email=bujji77@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UdemySelenium.Tests._02OrderPlaceTest@470f1802]" started-at="2022-10-13T22:52:36 IST" name="closeBrowser" finished-at="2022-10-13T22:52:36 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- UdemySelenium.Tests._02OrderPlaceTest -->
+    </test> <!-- Order Place Test -->
+  </suite> <!-- Framework -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel ="tests" name="Framework">                        <!-- running tests(in xml) parallelly i,e 2 java classes(orderplace, errorvalidation) -->
+  <groups>
+  	<run>
+  		<include name="ErrorHandling"/>
+  	</run>
+  </groups>
+  
+  <test name="Order Place Test">                    <!-- thread count specifies the maximum num of browser instances opened at a time -->
+    <classes>
+      <class name="UdemySelenium.Tests._02OrderPlaceTest"/>
+    </classes>
+  </test> 
+  
+  <test name="Error Validation Test">
+    <classes>
+      <class name="UdemySelenium.Tests._03ErrorValidationTest"/>
+    </classes>
+  </test>
+  
+</suite>
